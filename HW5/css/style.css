@@ -1,0 +1,175 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	flex-grow: 1
+}
+
+.aside-1 {
+	order: -1;
+	
+	background: #c798b9;
+	flex-basis: 210px;
+}
+
+.aside-2 {
+	
+	background: #9cb1c7;
+	flex-basis: 210px;
+}
+
+.header {
+	padding: 20px;
+	background: #d3b714;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer {
+	padding: 20px;
+	background: #86ec86;
+	text-align: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: row;
+}
+
+.list a {
+	text-decoration: none;
+	color: #000;
+}
+
+.list > li {
+	margin: 10px 0 0 20px;
+	list-style: none;
+}
+
+.img {
+	height: 60px;
+}
+
+.common {
+	flex: 1 0 0;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.card img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%; 
+	border: solid #c7b7b7 10px;
+	opacity: 0.8;
+}
+
+.card {
+	height: 500px;
+	width: 400px;
+	border: solid #9b9b9b 2px;
+	border-radius: 25px;
+	padding: 20px 15px 10px 40px;
+	margin: 15px;
+	
+}
+
+.button {
+	background: #685174;
+	
+}
+
+.card a {
+	text-decoration: none;
+	color: #fff;
+	padding: 7px 20px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+
+
+.card > p {
+	margin-top: 20px; 
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*----------------------------*/
+
+.holder {
+	width: 400px;
+	height: 112px;
+	border: solid #000 3px;
+	border-radius: 20px 20px 0 0;
+	overflow: hidden; 
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	font-weight: bold;
+}
+
+.item1 {
+	background: #fd644d;
+	height: 56px; 
+	width: auto;
+	order: 1;
+	flex-basis: 50%;
+}
+
+
+
+
+.item2 {
+	background: #4983b2;
+	height: 56px; 
+	width: auto;
+	order: 4;
+	flex-basis: 33.33333%;
+}
+
+.item3 {
+	background: #663797;
+	height: 56px; 
+	width: auto;
+	order: 3;
+	flex-basis: 33.33333%;
+}
+
+.item4 {
+	background: #0e7f12;
+	height: 56px; 
+	width: auto;
+	order: 5;
+	flex-basis: 33.33333%;
+}
+
+.item5 {
+	background: #fda429;
+	height: 56px; 
+	width: auto;
+	order: 2;
+	flex-basis: 50%;
+}

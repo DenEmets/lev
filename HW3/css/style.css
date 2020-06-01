@@ -1,0 +1,44 @@
+
+body, head {
+	box-sizing: border-box;
+	font-family: 'Baskervville', serif;
+	word-spacing: 1.2px;
+	line-height: 16px;
+
+}
+
+.level {
+	width: 350px;
+	height: 220px;
+	padding: 15px 10px 20px;
+	margin: 30px;
+	border: 2px dashed #FF0000;
+	background-color: #00FF00;
+}
+
+.page {
+	width: 615px;
+	height: 993px;
+	margin: 20px;
+}
+
+.img01 > img {
+	width: 200px;
+	height: 105px;
+	float: left;
+	margin: 0 20px 16px 0;
+}
+
+.img02 {
+	width: 150px;
+	height: 97px;
+	/*float: right;*/
+	margin: 16px 0 7px 20px;
+	
+}
+
+.text {
+	text-align: justify;
+	font-size: 14px;
+}
+
